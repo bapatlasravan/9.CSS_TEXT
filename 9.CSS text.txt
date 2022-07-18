@@ -1,0 +1,255 @@
+<html>
+<head><title>CSS FONTS</title>
+<link rel="stylesheet" href="D:\CSS\CSS external styles\h1.css">
+<link rel="stylesheet" href="D:\CSS\CSS external styles\h2.css">
+<style>
+#syntax{
+	background-color:cyan;
+}
+
+#note{
+	background-color:yellow;
+	color:red;
+}
+#one{
+ color:red;
+}
+
+#two {
+  text-align: center;
+}
+
+#three {
+  text-align: left;
+}
+
+#four {
+  text-align: right;
+}
+#five {
+  text-decoration: overline;
+}
+
+#six {
+  text-decoration: line-through;
+}
+
+#seven {
+  text-decoration: underline;
+}
+
+#eight {
+  text-decoration: overline underline;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+#nine {
+  letter-spacing: 5px;
+}
+
+#ten {
+  letter-spacing: 2px;
+}
+#eleven {
+  word-spacing: 20px;
+}
+
+#twelve {
+  word-spacing: 2px;
+}
+.one {
+  line-height: 0.7;
+}
+
+.two {
+  line-height: 1.8;
+}
+.three {
+  text-indent: 60px;
+}
+p.four {
+  text-shadow: 2px 2px 5px red;
+}
+</style>
+</head>
+<body>
+	<h1><center><u>CSS Font</u></center></h1>
+		<p>CSS Text is a module of CSS that defines how to perform text manipulation. in simple word we can add style to the text. properties of the 
+		css text are: </p>
+			<li>Text-color</li>
+			<li>Text-align(left,right,center,justify)</li>
+			<li>Text-decoration(underline,overline,line-through)</li>
+			<li>Text-transformation(uppercase,lowercase,capitlize)</li>
+			<li>letter-spacing</li>
+			<li>word-spacing</li>
+			<li>line-height</li>
+			<li>text-indent</li>
+			<li>text-shadow</li>
+
+
+	<h2><u>Font-color:</u></h2>
+		<p>The color property is used to set the color of the text. The color is specified by:
+			<li>color name - like "red"</li>
+			<li>HEX value - like "#ff0000"</li>
+			<li>RGB value - like "rgb(255,0,0)"</li>
+
+			<h3><u>Example:</u><h3>
+
+			<p id="one">This font is in red color</p><hr><hr>
+
+
+
+	<h2><u>Font-align:</u></h2>
+			<p>The text-align property is used to set the horizontal alignment of a text.A text can be left or right aligned, centered, or justified.
+			the syntax of the font align was:</p>
+			<p id="syntax">selector{<br>
+					 align:left(or)right(or)center(or)justify;<br>
+					}<br>
+
+			<h3><u>Example:</u></h3>
+				<p id="two">Paragraph 1 (center)</p>
+				<p id="three">Paragraph  2 (left)</p>
+				<p id="four">Paragraph  3 (right)</p>
+			<p id="note">When the text-align property is set to "justify", each line is stretched so that every line has 
+			equal width, and the left and right margins are straight </p><hr><hr>
+
+			
+
+
+
+	<h2><u> Text Decoration:</u></h2>
+			<p>The text-decoration property is used to add a decoration line to text.we use mainly four type of attributes in text decoration they are
+			</p>
+
+				<li>overline</li>
+				<li>line-through</li>
+				<li>underline</li>
+				<li>overline line-through</li>
+			<p id="syntax">The syntax for the text decortion property was:<br>
+					selector{<br>
+						text-decoration:overline(or)underline(or)line-through(or)overline underline;<br>
+						}<br></p>
+
+			<h3><u>Example:</u></h3>
+				<p id="five">Overline text decoration</p>
+				<p id="six">Line-through text decoration</p>
+				<p id="seven">Underline text decoration</p>
+				<p id="eight">Overline and underline text decoration.</p><hr><hr>
+
+
+	<h2><u>Text Transformation:</u></h2>
+			<p>The text-transform property is used to specify uppercase and lowercase letters in a text.
+			It can be used to turn everything into uppercase or lowercase letters, or capitalize the first letter of each word </p>
+			<p id="syntax">The syntax for the text formation was:<br>
+					selector{<br>
+						Text-transformation:uppercase(or)lowercase(or)capitalize<br>
+						}<br></p>
+
+			<h3><u>Example:</u></h3>
+			<p class="uppercase">This text is transformed to uppercase.</p>
+			<p class="lowercase">This text is transformed to lowercase.</p>
+			<p class="capitalize">This text is capitalized.</p><hr><hr>
+
+
+
+	<h2><u>Letter Spacing:</u></h2>
+			<p>The letter-spacing property is used to specify the space between the characters in a text.</p>
+			<p id="syntax">The syntax for the line spacing was:<br>
+					selector{<br>
+						letter-spacing:sizepx<br>
+						}<br></p>
+			<h3><u>Example:</u></h3>
+			<p id="nine">Here we are giving letter spacing 5px</p>
+			<p id="ten">Here we are giving letter spacing 2px</p>
+			<p id="note"><u>Note:</u>We can also give negetive values</p><hr><hr>
+
+
+
+
+
+
+	<h2><u>Word Spacing:</u></h2>
+			<p>The word-spacing property is used to specify the space between the words in a text.</p>
+			<p id="syntax">The syntax for the word spacing was:<br>
+					selector{<br>
+						word-spacing:sizepx<br>
+						}<br></p>
+
+			<h3><u>Example:</u></h3>
+				<p id="eleven">This is a paragraph using 20px word spacing.</p>
+				<p id="tweleve">This is a paragraph using2px word spacing.</p><hr><hr>
+
+
+
+
+
+
+	<h2><u>Line-height:</u></h2>
+			<p>The line-height property is used to specify the space between lines</p>
+			<p id="syntax">The syntax for the line height was:<br>
+					selector{<br>
+						line-height:size<br>
+						}<br></p>
+
+			<h3><u>Example:</u></h3>
+				<p>
+				This is a paragraph with a standard line-height.<br>
+				The default line height in most browsers is about 110% to 120%.<br>
+				</p>
+
+				<p class="one">
+				This is a paragraph with a smaller line-height i.e.0.7.<br>
+				This is a paragraph with a smaller line-height.i.e.0.7.<br>
+				</p>
+
+				<p class="two">
+				This is a paragraph with a bigger line-height.i.e.1.8<br>
+				This is a paragraph with a bigger line-height.i.e.1.8<br>
+				</p><hr><hr>
+
+	<h2><u>Line-indent:</u></h2>
+			<p>The line-indent property is used to specify the indentation of the first line of a text:</p>
+			<p id="syntax">The syntax for the line indent was:<br>
+					selector{<br>
+						line-indent:sizepx<br>
+						}<br></p
+
+			<h3><u>Example:</u></h3>
+				<p class="three">Here we are giving space for only first line.
+				Here we are giving space for only first lineHere we are giving space for only first lineHere we are giving space 
+				for only first lineHere we are giving space for only first lineHere we are giving space for only first lineHere 
+				we are giving space for only first lineHere we are giving space for only first lineHere we are giving space for only first
+				line Here we are giving space for only first lineHere we are giving space for only first lineHere we are giving space 
+				for only first lineHere we are giving space for only first lineHere we are giving space for only first lineHere 
+				we are giving space for only first lineHere we are giving space for only first lineHere we are giving space for only first
+				line</p><hr><hr>
+
+
+
+
+	<h2><u>Text Shadow:</u></h2>
+				<p>The text-shadow property adds shadow to text.
+				In its simplest use, you only specify the horizontal shadow (2px) and the vertical shadow (2px)</p>
+			<p id="syntax">The syntax for the line indent was:<br>
+					selector{<br>
+						text-shadow: (horizantal)sizepx  (vertical)sizepx (blur)sizepx colorname;  <br>
+						}<br></p>
+
+					<p class="four">Text-shadow effect! horizantal(2px) vertical(2px) blur(5px) red color</p>
+
+
+					<hr><hr>
+
+
+
+</body>
+</html>
